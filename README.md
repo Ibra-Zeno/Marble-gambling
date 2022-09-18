@@ -14,16 +14,15 @@ Complete with room for improvement.
 
 The program, when run, will initially ask the user to place a bet. The initial purse is £1000. If the purse subceeds £500 or the user inputs a non-integer as their bet, the game will end.
 
-The program will give feedback after every question, discerning whether the solution was correct or not. Once all problems are solved, information about the performance is given i.e. all the questions asked, with their correct solutions, alongside the user answers. Information regarding the time taken to answer each question is then returned. Below is an example:
+The program will return what marble was extracted from the bag, how much is won/lost and how much money is in the purse.
 
->Question 1: 10 * 8 = 80.
-  >You answered: 80.
- >It took you 1.9 seconds to answer this question
+> A Green marble was chosen.
+You have won £500. You now have £1500.
 
+If the bet placed is greater than what is in the purse, the program will ask the user to input a different number.
 
 ## Room for improvement
-- The program fails if a non-integer is input. An improvement can be made to accept non-integer answers and return a message asking for integers only.
-- Duplicate questions can be avoided if random.sample() is used.
+- A greater range of marbles with quirky perks can be included.
 
 ## Sources 
 [Python 3.10.7 documentation](https://docs.python.org/3/)
