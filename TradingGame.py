@@ -23,7 +23,7 @@ def Marble():
             continue
 
         choice = rn.choice(bag)
-        print(choice)
+        print(f'A {choice.capitalize()} marble was chosen.')
         # Green wins the bet
         if choice == 'green':
             purse = purse + bet
